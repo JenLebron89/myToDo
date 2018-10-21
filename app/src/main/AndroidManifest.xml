@@ -21,6 +21,11 @@
             android:label="@string/app_name"
             >
         </activity>
+        <activity
+            android:name=".AddItem"
+            android:label="@string/app_name"
+            >
+        </activity>
     </application>
 
 </manifest>

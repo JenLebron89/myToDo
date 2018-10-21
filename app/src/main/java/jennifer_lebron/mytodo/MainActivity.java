@@ -103,6 +103,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickButtonAdd(View v){
+        Intent	intent =	new Intent(MainActivity.this,	AddItem.class);
+//        String id = (((TextView)findViewById(R.id.et_new_strings)).getText().toString());
+//        //pass string to intent
+//        intent.putExtra("id", id);
+        startActivity(intent);
+
+    }
+
+    public void addToList(View v){
         taskAdded = "New task added successfully";
         al_items.add(new CustomItem("New Task",
                 System.currentTimeMillis()));

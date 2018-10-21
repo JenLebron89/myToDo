@@ -6,7 +6,9 @@
     <string name="add_tv">Add new task</string>
     <string name="delete_button">Delete</string>
     <string name="edit_button">Edit</string>
+    <string name="add_button">Add Task</string>
     <string name="btn_accept"> Click me bitch</string>
     <string name="action_settings">Action Settings</string>
     <string name="task_added"> Task successfully added.</string>
+    <string name="btn_add2"> Add to list </string>
 </resources>

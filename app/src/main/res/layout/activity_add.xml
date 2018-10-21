@@ -13,9 +13,10 @@
         android:text="@string/add_tv"
         />
     <Button
-        android:id="@+id/btn_accept"
+        android:id="@+id/btn_add_to_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_accept"
+        android:text="@string/btn_add2"
+        android:onClick="clickButtonBack"
         />
 </LinearLayout>
