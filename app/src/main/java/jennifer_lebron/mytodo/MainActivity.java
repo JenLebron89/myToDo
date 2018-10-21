@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_add;
     private String taskAdded;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
         btn_edit = (Button) findViewById(R.id.bt_edit);
         btn_add = (Button) findViewById(R.id.bt_add);
+
+        Intent	intent =	getIntent();
+        taskAdded =	intent.getStringExtra("addedTask");
+        addToList();
+
 
 
 //        //	add	in	a	listener	for	the	edit	text	to	create	new	items	in	our	list	view
@@ -111,12 +117,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void addToList(View v){
-        taskAdded = "New task added successfully";
-        al_items.add(new CustomItem("New Task",
+    public void addToList(){
+        tv_display.setText("Task added.");
+        al_items.add(new CustomItem(taskAdded,
                 System.currentTimeMillis()));
         caa.notifyDataSetChanged();
-        tv_display.setText(taskAdded);
 
     }
 }
