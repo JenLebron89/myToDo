@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Toodoosies</string>
+    <string name="tv_display_init">Nothing selected</string>
+    <string name="et_hint">Enter text here</string>
+    <string name="hello_world">Hello World</string>
+    <string name="add_tv">Add new task</string>
+    <string name="delete_button">Delete</string>
+    <string name="edit_button">Edit</string>
+    <string name="btn_accept"> Click me bitch</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="task_added"> Task successfully added.</string>
+</resources>
